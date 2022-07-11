@@ -7,19 +7,19 @@ void main() {
 	int res = pack4Chars2Int(c1, c2, c3, c4);
 	unsigned char tmp = 0;
 	tmp |= res;
-	printf("%d\n", tmp);
+	printf("%c\n", tmp);
 	res >>= 8;
 	tmp = 0;
 	tmp |= res;
-	printf("%d\n", tmp);
+	printf("%c\n", tmp);
 	res >>= 8;
 	tmp = 0;
 	tmp |= res;
-	printf("%d\n", tmp);
+	printf("%c\n", tmp);
 	res >>= 8;
 	tmp = 0;
 	tmp |= res;
-	printf("%d\n", tmp);
+	printf("%c\n", tmp);
 	
 	
 	printf("The value retunred from 15 is :%d\n", checkEvenParity(15));
