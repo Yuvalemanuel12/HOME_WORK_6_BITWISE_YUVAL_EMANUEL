@@ -23,7 +23,7 @@ void main() {
 	
 	
 	printf("The value retunred from 15 is :%d\n", checkEvenParity(15));
-	printf("The value retunred from 15 is :%d\n", checkEvenParity(8));
+	printf("The value retunred from 8 is :%d\n", checkEvenParity(8));
 
 }
 //1.
